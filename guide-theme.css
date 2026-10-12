@@ -1,0 +1,6 @@
+/* Гид и «Одна находка» в стиле сайта «Порядок» */
+body{font-family:Manrope,Arial,sans-serif}
+#inna-avito-guide h1,#inna-business-card h1,.wrap h1{font-family:'Playfair Display',Georgia,serif;font-weight:800;text-transform:uppercase;letter-spacing:-.005em;line-height:1.06;font-size:clamp(30px,4.6vw,48px)}
+#inna-avito-guide h2,#inna-avito-guide h3,#inna-business-card h2,#inna-business-card h3,.wrap h2{font-family:'Playfair Display',Georgia,serif;font-weight:700;letter-spacing:0}
+#inna-avito-guide .ig-button,#inna-avito-guide .ig-primary,#inna-business-card .iv-button,.wrap .btn{border-radius:999px}
+.backline{max-width:1044px;margin:0 auto}

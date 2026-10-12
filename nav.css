@@ -1,0 +1,34 @@
+/* Навигация: меню сверху, поиск по кодовому слову, «Вернуться обратно», «Наверх» */
+.topbar{--n-paper:#f5f1ea;--n-card:#fbf8f3;--n-ink:#1d2738;--n-ink2:#545a64;--n-line:#d8cfc2;position:sticky;top:0;z-index:50;background:var(--n-paper);margin:0 auto;max-width:1180px}
+.topbar .top{display:flex;align-items:center;gap:10px 26px;padding:14px 0;border-bottom:1px solid var(--n-line);flex-wrap:nowrap;font-family:Manrope,Arial,sans-serif}
+.topbar .brand{font:800 20px/1.2 'Playfair Display',Georgia,serif;text-transform:uppercase;letter-spacing:.04em;margin-right:auto;text-decoration:none;color:var(--n-ink);white-space:nowrap}
+.topbar nav{display:flex;flex-wrap:wrap;gap:6px 24px}
+.topbar nav a{font-size:14.5px;font-weight:600;text-decoration:none;color:var(--n-ink);padding:4px 0;border-bottom:1.5px solid transparent}
+.topbar nav a:hover{border-color:var(--n-line)}
+.topbar nav a[aria-current=page]{border-color:var(--n-ink)}
+.lupa{display:inline-flex;align-items:center;gap:8px;font:600 14.5px Manrope,Arial,sans-serif;color:var(--n-ink);background:var(--n-card);border:1px solid var(--n-ink);border-radius:999px;min-height:42px;padding:8px 16px;cursor:pointer}
+.lupa svg{width:18px;height:18px;flex:none}
+.lupa[aria-expanded=true]{background:var(--n-ink);color:var(--n-paper)}
+.search{border-bottom:1px solid var(--n-line);padding:14px 0 16px;background:var(--n-paper)}
+.search form{display:flex;flex-wrap:wrap;gap:10px;max-width:640px}
+.search input{font:500 17px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;flex:1 1 220px;min-height:48px;border:1px solid var(--n-ink);border-radius:999px;padding:10px 20px;background:var(--n-card);color:var(--n-ink);text-transform:uppercase}
+.search button{font:700 15px Manrope,Arial,sans-serif;min-height:48px;padding:12px 24px;border-radius:999px;border:1px solid var(--n-ink);background:var(--n-ink);color:var(--n-paper);cursor:pointer}
+.search-status{min-height:1.4em;margin:8px 0 0;font:600 14.5px Manrope,Arial,sans-serif;color:var(--n-ink2)}
+.search .hint{margin:6px 0 0;font:400 13.5px Manrope,Arial,sans-serif;color:var(--n-ink2)}
+.back{display:inline-flex;align-items:center;gap:8px;margin:22px 0 0;font:700 14.5px Manrope,Arial,sans-serif;color:#1d2738;text-decoration:none;border:1px solid #1d2738;border-radius:999px;padding:10px 18px;min-height:44px;background:#fbf8f3}
+.back:hover{background:#1d2738;color:#f5f1ea}
+.backline{max-width:1180px;margin:0 auto}
+.up{position:fixed;right:18px;bottom:18px;z-index:60;width:52px;height:52px;border-radius:50%;background:#1d2738;color:#f5f1ea;display:flex;align-items:center;justify-content:center;font:700 22px/1 Manrope,Arial,sans-serif;text-decoration:none;box-shadow:0 10px 24px -10px rgba(29,39,56,.6);opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s}
+.up.show{opacity:1;pointer-events:auto;transform:none}
+.sr{position:absolute;left:-9999px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #1d2738;outline-offset:3px}
+@media (max-width:760px){
+ .topbar .top{display:grid;grid-template-columns:1fr auto;grid-template-areas:"brand lupa" "nav nav";gap:8px 12px;padding:10px 0}
+ .topbar .brand{grid-area:brand;font-size:17px}
+ .topbar nav{grid-area:nav;gap:4px 18px}
+ .topbar nav a{font-size:14px}
+ .lupa{grid-area:lupa;min-height:40px;padding:6px 14px}
+ .back{margin-top:16px}
+ .up{right:14px;bottom:14px;width:48px;height:48px}
+}
+@media (prefers-reduced-motion:reduce){.up{transition:none}}

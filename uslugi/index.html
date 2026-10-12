@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" data-base="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,6 +16,7 @@
 <link rel="preload" href="/fonts/playfair-display-cyrillic-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/inna.webp" as="image">
 <link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/nav.css">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -151,8 +152,10 @@ _tmr.push({id: "3799792", type: "pageView", start: (new Date()).getTime()});
 </script>
 <noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3799792;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
 <!-- /Top.Mail.Ru counter -->
+<span id="top"></span>
 <div class="wrap">
-<header class="top"><a class="brand" href="/">Инна Мардарь</a><nav aria-label="Разделы"><a href="/">Все находки</a><a href="/avito/">Всё для Авито</a><a href="/uslugi/" aria-current="page">Услуги</a></nav></header>
+<div class="topbar"><header class="top"><a class="brand" href="/">Инна Мардарь</a><nav aria-label="Разделы"><a href="/">Все находки</a><a href="/avito/">Всё для Авито</a><a href="/uslugi/" aria-current="page">Услуги</a></nav><button class="lupa" type="button" aria-expanded="false" aria-controls="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg><span>Поиск</span></button></header><div class="search" id="search" hidden><form autocomplete="off"><label for="s-input" class="sr">Кодовое слово</label><input id="s-input" type="text" placeholder="Кодовое слово"><button type="submit">Открыть</button></form><p class="hint">Слово из поста или рилса, например НАХОДКА или ГИД.</p><p class="search-status" role="status" aria-live="polite"></p></div></div>
+<a class="back" href="/" data-back>← Вернуться обратно</a>
 <main>
 <section class="hero">
 <div>
@@ -279,5 +282,7 @@ _tmr.push({id: "3799792", type: "pageView", start: (new Date()).getTime()});
 <nav aria-label="Каналы"><a href="https://t.me/InnaAvito" target="_blank" rel="noopener">Телеграм</a><a href="https://max.ru/channel_id860322136454_biz" target="_blank" rel="noopener">Макс</a><a href="https://vk.ru/inna_mardar_avito_ai" target="_blank" rel="noopener">ВКонтакте</a></nav>
 </footer>
 </div>
+<a class="up" href="#top" aria-label="Наверх">↑</a>
+<script src="/site.js" defer></script>
 </body>
 </html>
