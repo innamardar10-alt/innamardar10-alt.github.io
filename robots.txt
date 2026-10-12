@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://innamardar10-alt.github.io/sitemap.xml
