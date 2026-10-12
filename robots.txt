@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /chernovik/
 
 Sitemap: https://innamardar10-alt.github.io/sitemap.xml
