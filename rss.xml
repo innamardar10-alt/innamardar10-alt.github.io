@@ -5,8 +5,23 @@
     <link>https://innamardar10-alt.github.io/</link>
     <description>Посты для Postmypost</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 19 Oct 2026 16:59:52 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 17:03:45 +0300</lastBuildDate>
     <atom:link href="https://innamardar10-alt.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Хотите короткий ролик про своё дело, но снимать себя не готовы?</title>
+      <description><![CDATA[Хотите короткий ролик про своё дело, но снимать себя не готовы?
+
+Сделала вторую тетрадь, про видео. В ней нейросети, которые делают ролик из картинки или текста, оживляют фото под ваш голос и пишут песню на ваши стихи. Порядок такой, в каком стоит пробовать: сначала самые щедрые на бесплатное.
+
+У каждого сервиса одинаковые строки: что умеет, сколько бесплатно, для чего лучше и где подвох. Подвох почти везде один: на бесплатном ролике будет водяной знак.
+
+Проверьте сегодня: возьмите фото своей работы и сделайте из него пятисекундный ролик в Qwen. Это бесплатно, без карты.
+
+Тетрадь бесплатная: https://innamardar10-alt.github.io/tetrad/video.html]]></description>
+      <guid isPermaLink="false">2026-10-19-tetrad-video</guid>
+      <pubDate>Mon, 19 Oct 2026 17:03:00 +0300</pubDate>
+      <enclosure url="https://d8j0ntlcm91z4.cloudfront.net/user_3J8JlTMqaN7HYh3VU0y1CDHW9dF/hf_20261019_140232_f673a9bb-3185-4305-8c92-70683ce3d201.png" type="image/png" length="0"/>
+    </item>
     <item>
       <title>Нейросеть может написать описание к объявлению. Только какую открыть, чтобы бесплатно?</title>
       <description><![CDATA[Нейросеть может написать описание к объявлению. Только какую открыть, чтобы бесплатно?
@@ -22,7 +37,7 @@
 Тетрадь бесплатная, открывается по ссылке: https://innamardar10-alt.github.io/tetrad/]]></description>
       <guid isPermaLink="false">2026-10-19-tetrad-neyroseti</guid>
       <pubDate>Mon, 19 Oct 2026 16:59:00 +0300</pubDate>
-      <enclosure url="https://innamardar10-alt.github.io/tetrad/post/post-tetrad.png" type="image/png" length="0"/>
+      <enclosure url="https://d8j0ntlcm91z4.cloudfront.net/user_3J8JlTMqaN7HYh3VU0y1CDHW9dF/hf_20261019_140231_d642242f-0689-40dd-85f8-1dbf46223a8c.png" type="image/png" length="0"/>
     </item>
     <item>
       <title>Пишут вечером, а вы уже не отвечаете?</title>
