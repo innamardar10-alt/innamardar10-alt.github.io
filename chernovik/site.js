@@ -1,6 +1,6 @@
 (function () {
   var B = document.documentElement.getAttribute('data-base') || '';
-  var words = { 'НАХОДКА': B + '/avito-guide/odna-nakhodka/', 'ГИД': B + '/avito-guide/' };
+  var words = { 'НАХОДКА': B + '/avito-guide/odna-nakhodka/', 'ГИД': B + '/avito-guide/', 'КОДЫ': B + '/kody/' };
   function norm(v) { return (v || '').trim().toUpperCase().replace(/Ё/g, 'Е').replace(/[^А-ЯA-Z0-9]/g, ''); }
   function go(input, status) {
     var w = norm(input.value);
